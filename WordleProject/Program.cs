@@ -66,7 +66,7 @@ while (check)
                 {
                     if (guess == wordle)
                     {
-                        Console.WriteLine("\nSolved in " + (turn + 1) + " tries! Well done!");
+                        Console.WriteLine("\nSolved in  " + (turn + 1) + " tries! Well done!");
                         win = true;
                         break;
                     }
