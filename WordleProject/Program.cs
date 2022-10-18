@@ -129,7 +129,7 @@ while (check)
                 {
                     Console.WriteLine("Five letter words only please. Try again!");
                 }
-                else //  the word is a valid word
+                else //  the guess is not valid word
                 {
                     Console.WriteLine("Not word in list! Try again!");
                 }
