@@ -77,7 +77,7 @@ while (check)
                         string remainLetterInWord = wordle;
                         string response = "";
                         for (int i = 0; i < guessChar.Length; i++)
-                        {   
+                        {
                            
                             if (guessChar[i] == wordleChar[i])
                             {

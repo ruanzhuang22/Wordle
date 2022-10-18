@@ -1,9 +1,14 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace WordleProject
 {
-    public class wordList
+    internal class Words
     {
-        public string[] words = {
+        readonly string[] words = {
             "aahed", "aalii", "abaca", "abaci", "aback", "abaft", "abamp",
             "abase", "abash", "abate", "abbas", "abbey", "abbot", "abeam",
             "abets", "abhor", "abide", "abled", "abler", "abmho", "abode",
